@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Unity WebGL Player | cryptoman</title>
+    <link rel="shortcut icon" href="TemplateData/favicon.ico">
+    <link rel="stylesheet" href="TemplateData/style.css">
+    <script src="TemplateData/UnityProgress.js"></script>  
+    <script src="Build/UnityLoader.js"></script>
+    <script>
+      var gameInstance = UnityLoader.instantiate("gameContainer", "Build/midterm.json", {onProgress: UnityProgress});
+    </script>
+  </head>
+  <body>
+    <div class="webgl-content">
+      <div id="gameContainer" style="width: 960px; height: 600px"></div>
+      <div class="footer">
+        <div class="webgl-logo"></div>
+        <div class="fullscreen" onclick="gameInstance.SetFullscreen(1)"></div>
+        <div class="title">cryptoman</div>
+      </div>
+      <div class="footer">
+        <h2 style="color:red">Please connect to Ropsten to view and submit your top scores via Metamask</h2>
+      </div>
+      <div class="footer">
+        <div class="title">Metamask required with an account in Ropsten</div>
+      </div>
+      <div class="footer">
+        <div class="title">Contract address: 0x8ec3ee87214cc109dbd4a7709b5bc7439af6532e</div>
+      </div>
+      <div class="footer">
+        <div class="title"><a href="https://github.com/xtr33me/cryptoman" target="_blank">Github Source</a></div>
+      </div>
+    </div>
+  </body>
+</html>
