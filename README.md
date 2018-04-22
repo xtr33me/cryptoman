@@ -32,6 +32,7 @@ This was created as a midterm project submission for Siraj Raval's Decentralized
 * Ethereum
 * Nethereum - Unity / ethereum communication
 * Web3 for metamask handling
+* Solidity for writing contracts
 * http://remix.ethereum.org/ for contract deployment
 * IPFS for data storage
 
